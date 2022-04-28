@@ -1,6 +1,7 @@
 package com.week3team2.lectureservice.service;
 
 import com.week3team2.lectureservice.entity.Lecture;
+import com.week3team2.lectureservice.service.lecture.LectureService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -4,15 +4,12 @@ import com.week3team2.lectureservice.entity.Lecture;
 import com.week3team2.lectureservice.entity.LectureContent;
 import com.week3team2.lectureservice.entity.LectureInfo;
 import com.week3team2.lectureservice.repository.LectureRepository;
-import com.week3team2.lectureservice.service.LectureService;
+import com.week3team2.lectureservice.service.lecture.LectureService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Mono;
-
-import java.util.Map;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 

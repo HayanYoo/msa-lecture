@@ -1,4 +1,4 @@
-package com.week3team2.lectureservice.service;
+package com.week3team2.lectureservice.service.lecture;
 
 import com.week3team2.lectureservice.entity.Lecture;
 import com.week3team2.lectureservice.entity.LectureContent;
@@ -11,6 +11,7 @@ import com.week3team2.lectureservice.repository.LectureRepository;
 import java.time.LocalDateTime;
 import java.util.Map;
 
+import com.week3team2.lectureservice.service.lecture.LectureService;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

@@ -1,4 +1,4 @@
-package com.week3team2.lectureservice.service;
+package com.week3team2.lectureservice.service.lecture;
 
 import com.week3team2.lectureservice.entity.Lecture;
 import com.week3team2.lectureservice.entity.LectureContent;
